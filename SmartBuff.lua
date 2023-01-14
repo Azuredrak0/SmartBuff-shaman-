@@ -717,6 +717,7 @@ function SMARTBUFF_SetBuffs()
     for _, buff in SMARTBUFF_SHAMAN  do
       n = SMARTBUFF_SetBuff(buff, n);
     end
+    cPatterns = SMARTBUFF_MAGE_PATTERN;
     
   elseif (sPlayerClass == "WARRIOR") then
     for _, buff in SMARTBUFF_WARRIOR  do
